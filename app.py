@@ -89,7 +89,7 @@ else:
 
 # Streamlit app layout
 st.title(":construction_worker: TBM Helper :construction_worker:")
-st.header(":blue[_TBM 대해 도움을 드리겠습니다_]")
+st.header(":blue[_작업자 TBM 대해 도움을 드리겠습니다_]")
 
 # 사용자로부터 이미지 업로드를 위한 파일 업로더
 uploaded_file2 = st.file_uploader("이미지 업로드", type=["jpg", "png", "jpeg"], key="file_uploader_2")
